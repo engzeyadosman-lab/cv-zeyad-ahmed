@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zeyad Ahmed | MEP BIM Coordinator</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:#fff;
+line-height:1.6;
+}
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:50px;
+background:linear-gradient(135deg,#0f172a,#1e293b,#0ea5e9);
+}
+.container{max-width:1200px;margin:auto}
+.card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.15);
+border-radius:24px;
+padding:40px;
+box-shadow:0 20px 50px rgba(0,0,0,.35);
+}
+h1{
+font-size:3.5rem;
+margin-bottom:10px;
+}
+.subtitle{
+font-size:1.3rem;
+color:#cbd5e1;
+margin-bottom:20px;
+}
+.contact{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin:20px 0;
+}
+.contact span{
+background:rgba(255,255,255,.12);
+padding:10px 15px;
+border-radius:10px;
+}
+section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+.section-title{
+font-size:2rem;
+margin-bottom:30px;
+color:#38bdf8;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+.box{
+background:#1e293b;
+padding:25px;
+border-radius:18px;
+transition:.3s;
+}
+.box:hover{
+transform:translateY(-8px);
+}
+ul{padding-left:20px}
+li{margin-bottom:8px}
+.skill{
+display:inline-block;
+background:#0284c7;
+padding:10px 15px;
+border-radius:30px;
+margin:6px;
+}
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+color:#94a3b8;
+}
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 24px;
+background:#38bdf8;
+color:#000;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<div class="container">
+<div class="card">
+<h1>Zeyad Ahmed</h1>
+<p class="subtitle">MEP BIM Coordinator | BIM Engineer | HVAC Engineer</p>
+
+<div class="contact">
+<span>📍 Cairo, Egypt</span>
+<span>📞 01551961495</span>
+<span>✉️ engzeyadosman@gmail.com</span>
+<span>🔗 LinkedIn Profile</span>
+</div>
+
+<p>
+Experienced MEP BIM Coordinator specializing in Revit, Navisworks, ACC, BIM 360,
+clash detection, model coordination, and digital project delivery across large-scale developments.
+</p>
+
+<a href="#experience" class="btn">View Experience</a>
+</div>
+</div>
+</div>
+
+<section>
+<h2 class="section-title">Professional Summary</h2>
+<div class="box">
+Engineering professional with experience in BIM coordination, MEP modeling,
+clash detection, digital delivery, and HVAC design. Skilled in multidisciplinary coordination,
+Autodesk Construction Cloud workflows, and BIM standards implementation.
+</div>
+</section>
+
+<section id="experience">
+<h2 class="section-title">Experience</h2>
+
+<div class="grid">
+
+<div class="box">
+<h3>Engineering Consultant: BIM</h3>
+<h4>WiiGroup | Jan 2025 – Present</h4>
+<ul>
+<li>Develop and maintain coordinated BIM models.</li>
+<li>Perform clash detection and issue tracking.</li>
+<li>Support constructability and sequencing workflows.</li>
+<li>Maintain model integrity and BIM standards.</li>
+<li>Coordinate with engineering and site teams.</li>
+</ul>
+</div>
+
+<div class="box">
+<h3>MEP BIM Coordinator</h3>
+<h4>MAAP Electro Mechanical Engineers | Jan 2025 – Present</h4>
+<ul>
+<li>Manage MEP BIM models and coordination.</li>
+<li>Use Navisworks, BIM 360, and ACC.</li>
+<li>Perform clash detection and resolution.</li>
+<li>Manage model updates and revisions.</li>
+<li>Coordinate Revit shared coordinates.</li>
+</ul>
+</div>
+
+<div class="box">
+<h3>HVAC Design Engineer</h3>
+<h4>Direct Consultancy for MEP & Infrastructure | Jul 2024 – Jan 2025</h4>
+<ul>
+<li>HVAC Design LOD 300.</li>
+<li>Builder Work Drawings.</li>
+<li>Shop Drawing Preparation.</li>
+<li>NEOM-related project support.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Projects</h2>
+<div class="grid">
+<div class="box">Golden Gate Commercial Complex – New Cairo</div>
+<div class="box">Zed Towers – Sheikh Zayed</div>
+<div class="box">CEER Project</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Education</h2>
+<div class="box">
+<h3>Bachelor's Degree in Mechanical Power Engineering</h3>
+<p>Al-Azhar University – 2024</p>
+<p>Grade: Very Good</p>
+<p>Graduation Project: Modern Electric Vehicle Design & Analysis (Excellent)</p>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Technical Skills</h2>
+<div>
+<span class="skill">Revit</span>
+<span class="skill">Navisworks</span>
+<span class="skill">Revizto</span>
+<span class="skill">ACC</span>
+<span class="skill">BIM 360</span>
+<span class="skill">HVAC</span>
+<span class="skill">Fire Fighting</span>
+<span class="skill">Plumbing</span>
+<span class="skill">LOD 400</span>
+<span class="skill">LOD 500</span>
+<span class="skill">C#</span>
+<span class="skill">Revit API</span>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Certifications</h2>
+<div class="grid">
+<div class="box">Revizto Certified Expert – Level 1</div>
+<div class="box">ISO 19650 Information Manager Level 3 Expert</div>
+<div class="box">ACC Design Collaboration – Autodesk</div>
+<div class="box">ACC Model Coordination – Autodesk</div>
+<div class="box">BIM MEP Diploma – Kaitech</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Languages</h2>
+<div class="box">
+Arabic (Native) <br>
+English (Fluent)
+</div>
+</section>
+
+<footer>
+© 2026 Zeyad Ahmed | MEP BIM Coordinator Portfolio
+</footer>
+
+</body>
+</html>
